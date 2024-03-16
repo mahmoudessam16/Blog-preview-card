@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  background-color: hsl(47, 88%, 63%);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main {
+  width: 380px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid hsl(0, 0%, 7%);
+  box-shadow: 10px 10px 0 0 hsl(0, 0%, 7%);
+}
+body main > img {
+  border-radius: inherit;
+  width: 100%;
+}
+body main span {
+  background-color: hsl(47, 88%, 63%);
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 16px;
+  margin: 12px 0;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+body main p.date {
+  font-size: 16px;
+  font-weight: bold;
+}
+body main h1 {
+  font-size: 26px;
+  margin: 15px 0;
+  font-weight: 900;
+}
+body main p.desc {
+  font-size: 16px;
+  color: hsl(0, 0%, 50%);
+  line-height: 1.5;
+}
+body main section {
+  display: flex;
+  align-items: center;
+  margin: 16px 0 0 0;
+}
+body main section img {
+  width: 40px;
+}
+body main section p.name {
+  font-weight: 900;
+  margin-left: 10px;
+}
+
+@media (max-width: 400px) {
+  main {
+    width: 340px !important;
+  }
+  main h1 {
+    font-size: 22px !important;
+  }
+}/*# sourceMappingURL=style.css.map */
